@@ -10411,9 +10411,107 @@ a.text-dark:focus {
   }
 }
 
-.navbar-laravel {
+html,
+body {
   background-color: #fff;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  padding-bottom: 100px;
+}
+
+.page-header {
+  background-color: #333;
+  color: #999;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.section-title {
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ccc;
+  padding: 5px 15px;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  display: none;
+  height: 2px;
+  width: 90px;
+  background: #666;
+  margin-bottom: 5px;
+}
+
+.section-options .option {
+  display: inline-block;
+  font-size: 28px;
+  line-height: 1.2em;
+  color: #999;
+  margin: 6px;
+  padding: 6px;
+  border: 2px solid transparent;
+}
+
+.section-options .option.font-weight {
+  font-size: 22px;
+  line-height: 1em;
+}
+
+.section-options .option.selected {
+  border: 2px solid tomato;
+}
+
+.section-logos {
+  margin-top: 100px;
+}
+
+.section-logos .logo-box {
+  position: relative;
+  margin: 15px;
+  padding: 20px 0;
+  border: 1px solid #ddd;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  width: 170px;
+}
+
+.section-logos .logo-box .logo-icon {
+  position: relative;
+}
+
+.section-logos .logo-box .logo-icon img {
+  width: 50px;
+}
+
+.section-logos .logo-box .logo-text {
+  position: relative;
+  font-size: 36px;
+  line-height: 1em;
+}
+
+.section-logos .icon-org-black .logo-icon,
+.section-logos .icon-org-white .logo-icon {
+  margin-bottom: -70px;
+  margin-top: -30px;
+}
+
+.section-logos .icon-org-black .logo-icon img,
+.section-logos .icon-org-white .logo-icon img {
+  width: 100%;
+}
+
+.section-logos .icon-org-black .logo-text,
+.section-logos .icon-org-white .logo-text {
+  color: #e69b3e;
+}
+
+.sp-container button {
+  font-size: 20px;
 }
 
