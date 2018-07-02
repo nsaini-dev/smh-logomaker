@@ -15,4 +15,5 @@ mix.js('resources/assets/js/app.js', 'public/js').extract([
     'lodash','popper.js', 'jquery', 'bootstrap', 'axios'
 ]);
 
+mix.copy('node_modules/spectrum-colorpicker/spectrum.css' ,'public/css');
 mix.sass('resources/assets/sass/app.scss', 'public/css');

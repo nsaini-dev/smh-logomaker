@@ -7,6 +7,14 @@
 
 require('./bootstrap');
 
+import LogoMaker from './LogoMaker';
+
+
+$(document).ready(function(){
+    LogoMaker();
+});
+
+
 // window.Vue = require('vue');
 
 /**
