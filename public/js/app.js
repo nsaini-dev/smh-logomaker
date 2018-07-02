@@ -2452,7 +2452,25 @@ function LogoMaker() {
     var $fontOptions = $('.section-font-family .option');
     var $fontWeightOptions = $('.section-font-weight .option');
 
+    var $fontSizeBtn = $('.section-font-size .btn');
+    var $fontSize = $('.section-font-size .value');
+
     var $logoText = $('.logo-text');
+
+    var fontSize = 36;
+
+    $fontSizeBtn.on('click', function () {
+        var $this = $(this);
+
+        if ($this.hasClass('btn-plus')) {
+            fontSize += 2;
+        } else {
+            fontSize -= 2;
+        }
+
+        $fontSize.text(fontSize);
+        $logoText.css('font-size', fontSize + 'px');
+    });
 
     _.each($fontOptions, function (item) {
         var $item = $(item);

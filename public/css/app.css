@@ -10435,7 +10435,7 @@ body {
   font-weight: bold;
   background-color: #ccc;
   padding: 5px 15px;
-  display: inline-block;
+  display: block;
 }
 
 .section-title::after {
@@ -10449,10 +10449,10 @@ body {
 
 .section-options .option {
   display: inline-block;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 1.2em;
   color: #999;
-  margin: 6px;
+  margin: 5px;
   padding: 6px;
   border: 2px solid transparent;
 }
@@ -10464,6 +10464,21 @@ body {
 
 .section-options .option.selected {
   border: 2px solid tomato;
+}
+
+.section-font-size .section-options {
+  padding-top: 10px;
+}
+
+.section-font-size .btn,
+.section-font-size .value {
+  font-size: 18px;
+}
+
+.section-font-size .btn {
+  background: #eee;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .section-logos {

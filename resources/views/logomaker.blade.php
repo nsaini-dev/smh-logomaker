@@ -6,7 +6,7 @@
     {{-- FONT FAMILY --}}
     <section class="section-font-family">
         <div class="section-title">
-            Select Font Type
+            Font Type
         </div>
         <div class="section-options">
             @foreach($fonts as $font)
@@ -19,11 +19,11 @@
 
 
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-4">
             {{-- FONT WEIGHT --}}
             <section class="section-font-weight">
                 <div class="section-title">
-                    Select Font Thickness
+                    Font Thickness
                 </div>
                 <div class="section-options">
                     @foreach($weights as $weight)
@@ -34,11 +34,11 @@
                 </div>
             </section>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-4">
             {{-- SELECT COLOR --}}
             <section class="section-text-color">
                 <div class="section-title">
-                    Select Text Color
+                    Font Color
                 </div>
                 <div class="section-options">
                     <br>
@@ -46,6 +46,19 @@
                 </div>
             </section>
         </div>
+        <div class="col-sm-4">
+                {{-- FONT SIZE --}}
+                <section class="section-font-size">
+                    <div class="section-title">
+                        Font Size
+                    </div>
+                    <div class="section-options">
+                        <span class="btn btn-default btn-plus">plus</span>
+                        <span class="value">36</span>
+                        <span class="btn btn-default btn-minus">minus</span>
+                    </div>
+                </section>
+            </div>
     </div>
 
     {{-- FONT WEIGHT --}}

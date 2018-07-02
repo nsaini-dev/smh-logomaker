@@ -22,7 +22,7 @@ html, body {
     font-weight: bold;
     background-color: #ccc;
     padding: 5px 15px;
-    display: inline-block;
+    display: block;
 
     &::after {
         content: '';
@@ -37,10 +37,10 @@ html, body {
 .section-options {
     .option {
         display: inline-block;
-        font-size: 28px;
+        font-size: 26px;
         line-height: 1.2em;
         color: #999;
-        margin: 6px; 
+        margin: 5px; 
         padding: 6px;
         border: 2px solid transparent;
 
@@ -55,6 +55,21 @@ html, body {
     }
     
 }
+
+.section-font-size {
+    .section-options {
+        padding-top: 10px;
+    }
+    .btn,.value {
+        font-size: 18px;
+    }
+    .btn {
+        background: #eee;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
 
 
 .section-logos 
